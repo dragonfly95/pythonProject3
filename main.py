@@ -5,6 +5,7 @@
 
 import pymysql
 import pandas as pd
+import json_example
 
 # http://pythonstudy.xyz/python/article/202-MySQL-%EC%BF%BC%EB%A6%AC
 
@@ -89,4 +90,7 @@ if __name__ == '__main__':
     # delete(5)
     # select('PyCharm')
 
-    xlsx_read()
+    # xlsx_read()
+    json_example.dumps()
+
+    json_example.load()
